@@ -1,0 +1,57 @@
+body{
+    background-image: url('../imagens/background\ roxo.avif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.hl {
+    text-align: center;
+    color: rgb(234, 92, 40);
+    font-size: 82px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.bolos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid white;
+    width: 20%;
+    height: 20%;
+    box-shadow: 3px 3px 3px 3px red;
+    border-radius: 5px;
+}
+
+.lista_ingr {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.preparo {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    list-style-type: upper-roman;
+    /* exibe I, II, III, IV... */
+    margin-left: 40px;
+    /* dá um recuo bonito */
+}
+
+.lista_ingr,
+.preparo {
+    list-style-position: outside;
+    display: inline-block; /* transforma a lista em um bloco */
+    text-align: left; /* mantém o texto alinhado internamente */
+    margin: 0 auto; /* centraliza o bloco */
+}
+
+div {
+    text-align: center; /* centraliza o container */
+}

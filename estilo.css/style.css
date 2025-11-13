@@ -1,0 +1,53 @@
+body{
+    background-image: url('../imagens/background\ roxo.avif');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pedro {
+    color: #c9099f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 82px;
+}
+
+
+
+.imagem {
+    border: 15px solid white;
+    width: 20%;
+    height: 20%;
+    box-shadow: 3px 3px 3px 3px red;
+    border-radius: 5px;
+    transition: linear 0.25s;
+    cursor: pointer;
+}
+
+#escolha{
+    color: #c9099f;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 42px;
+}
+
+
+.imagem:hover{
+    transform: rotate(0deg) scale(1.5);
+}
+
+#delicia {
+    text-align: center;
+    color: rgb(234, 92, 40);
+    font-size: 82px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.direitos {
+    position: fixed;
+    bottom: 20px;   /* aumenta a distância do rodapé */
+    right: 45px;    /* aumenta a distância da lateral */
+    font-size: 14px;
+    color: #555;
+    font-family: Arial, sans-serif;
+    opacity: 0.8;
+}
