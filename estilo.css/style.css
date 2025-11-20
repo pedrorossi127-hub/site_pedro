@@ -5,8 +5,12 @@ body{
 }
 
 #pedro {
-    color: #c9099f;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive ;
+    -webkit-text-stroke: black 3px;
+    background: linear-gradient(to left,#c9099f, rgb(135, 149, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
     text-align: center;
     font-size: 82px;
 }
